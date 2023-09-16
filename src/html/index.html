@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Driving Forward</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form">
+      <div class="form__closeButton">
+        <i class="uil uil-multiply"></i>
+      </div>
+      <form action="#" method="get" class="form__body">
+        <div class="main__contacts-form-title">Оставьте заявку</div>
+        <div class="main__contacts-form-subtitle">Заполните форму и мы Вам перезвоним!</div>
+        <div class="main__contacts-form-number">
+          <div class="country">
+            <div class="country__button">
+              <img src="../img/russia.svg" alt="">
+              <i class="uil uil-angle-down arrow-country"></i>
+            </div>
+            <div class="country__menu">
+              <ul class="country__list">
+                <li class="country__item">
+                  <img src="../img/germany-icon.svg" alt="">
+                  <span>+49</span>
+                </li>
+                <li class="country__item">
+                  <img src="../img/hungary-icon.svg" alt="">
+                  <span>+36</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span class="start__number">+7</span>
+          <label for="number2">
+            <input type="text" id="number2" placeholder="(999) 999-99-99">
+          </label>
+        </div>
+        <button type="submit" class="main__contacts-form-button">Отправить</button>
+        <div class="main__contacts-form-text">Оставляя заявку, вы даете согласие на обработку персональных данных</div>
+        <div class="main__contacts-gradient"></div>
+      </form>
+    </div>
+    @@include('./blocks/header.html')
+    <main class="main">
+      <div class="main__container __container">
+        <div class="main__advantages" id="advantages">
+          <div class="main__advantages-title">Превосходство в обслуживании</div>
+          <div class="main__advantages-subtitle">Ваша машина в надежных руках!</div>
+          <div class="main__advantages-button">ОСТАВИТЬ ЗАЯВКУ</div>
+          <div class="main__advantages-info">
+            <div class="main__advantages-info-icon">
+              <img src="../img/italy-icon.svg" alt="">
+            </div>
+            <div class="main__advantages-info-text">Специально обученные механики</div>
+          </div>
+          <div class="main__advantages-info">
+            <div class="main__advantages-info-icon">
+              <img src="../img/crown-icon.svg" alt="">
+            </div>
+            <div class="main__advantages-info-text">Только премиум качество</div>
+          </div>
+          <div class="main__advantages-next">
+            <div class="main__advantages-next-button">
+              <i class="uil uil-arrow-down"></i>
+            </div>
+            <div class="main__advantages-next-text">Листайте вниз
+            </div>
+          </div>
+          <div class="main__advantages-car">
+            <div class="main__advantages-car-title">MERCEDES BENZ</div>
+            <div class="main__advantages-car-image">
+              <img src="../img/car.webp" alt="">
+              <div class="linear"></div>
+            </div>
+          </div>
+          <div class="main__advantages-logo">
+            <img src="../img/mers-logo.png" alt="">
+          </div>
+        </div>
+        <div class="main__request">
+          <div class="main__request-title">
+            <span class="main__request-title-yellow">Чтобы узнать точную стоимость работ,</span>
+            <span class="main__request-title-white">запишитесь на бесплатную консультацию</span>
+          </div>
+          <form action="#" method="get" class="main__request-form">
+            <label for="name" class="main__request-form-name">
+              <input type="text" id="name" placeholder="Ваше имя">
+            </label>
+            <div class="main__request-form-number">
+              <div class="country">
+                <div class="country__button">
+                  <img src="../img/russia.svg" alt="">
+                  <i class="uil uil-angle-down arrow-country"></i>
+                </div>
+                <div class="country__menu">
+                  <ul class="country__list">
+                    <li class="country__item">
+                      <img src="../img/germany-icon.svg" alt="">
+                      <span>+49</span>
+                    </li>
+                    <li class="country__item">
+                      <img src="../img/hungary-icon.svg" alt="">
+                      <span>+36</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <span class="start__number">+7</span>
+              <label for="number">
+                <input type="text" id="number" placeholder="(999) 999-99-99">
+              </label>
+            </div>
+            <button type="submit" class="main__request-form-button">Записаться</button>
+          </form>
+          <div class="main__request-text">Оставляя заявку, вы даете согласие на обработку персональных данных</div>
+        </div>
+        <div class="main__services" id="services">
+          <div class="main__services-title title">Наши услуги</div>
+          <div class="main__services-info">
+            <div class="main__services-block">
+              <div class="main__services-block-image">
+                <img src="../img/tech.webp" alt="">
+              </div>
+              <div class="main__services-block-name">
+                ТЕХ. ОБСЛУЖИВАНИЕ
+              </div>
+            </div>
+            <div class="main__services-block">
+              <div class="main__services-block-image">
+                <img src="../img/zamena.webp" alt="">
+              </div>
+              <div class="main__services-block-name">
+                ЗАМЕНА СВЕЧЕЙ
+              </div>
+            </div>
+            <div class="main__services-block">
+              <div class="main__services-block-image">
+                <img src="../img/koles.png" alt="">
+              </div>
+              <div class="main__services-block-name">
+                РЕГУЛИРОВКА КОЛЁС
+              </div>
+            </div>
+            <div class="main__services-block">
+              <div class="main__services-block-image">
+                <img src="../img/stroitel.webp" alt="">
+              </div>
+              <div class="main__services-block-name">
+                ПОКРАСКА И РЕМОНТ
+              </div>
+            </div>
+            <div class="main__services-block">
+              <div class="main__services-block-image">
+                <img src="../img/dvigatel.png" alt="">
+              </div>
+              <div class="main__services-block-name">
+                РЕМОНТ ДВИГАТЕЛЯ
+              </div>
+            </div>
+            <div class="main__services-block">
+              <div class="main__services-block-image">
+                <img src="../img/systema.webp" alt="">
+              </div>
+              <div class="main__services-block-name">
+                СИСТЕМЫ ОХЛАЖДЕНИЯ
+              </div>
+            </div>
+            <div class="main__services-block">
+              <div class="main__services-block-image">
+                <img src="../img/rul.png" alt="">
+              </div>
+              <div class="main__services-block-name">
+                РУЛЕВОЕ УПРАВЛЕНИЕ
+              </div>
+            </div>
+            <div class="main__services-block">
+              <div class="main__services-block-image">
+                <img src="../img/toplivo.webp" alt="">
+              </div>
+              <div class="main__services-block-name">
+                ПОДАЧИ ТОПЛИВА
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__choose">
+          <div class="main__choose-title title">Почему стоит выбрать нас</div>
+          <div class="main__choose-info">
+            <div class="main__choose-block">
+              <div class="main__choose-block-icon">
+                <img src="../img/quality.svg" alt="">
+              </div>
+              <div class="main__choose-block-title">Высокое качество ремонта</div>
+              <div class="main__choose-block-text">У нас используются только качественные запчасти и профессиональное оборудование, что гарантирует долговечность и надежность ремонта.</div>
+            </div>
+            <div class="main__choose-block">
+              <div class="main__choose-block-icon">
+                <img src="../img/spectr.svg" alt="">
+              </div>
+              <div class="main__choose-block-title">Широкий спектр услуг</div>
+              <div class="main__choose-block-text">Мы предоставляем полный комплекс услуг по ремонту и обслуживанию автомобилей, включая диагностику, замену деталей, регулировку систем, шиномонтаж и т.д.</div>
+            </div>
+            <div class="main__choose-block">
+              <div class="main__choose-block-icon">
+                <img src="../img/time.svg" alt="">
+              </div>
+              <div class="main__choose-block-title">Индивидуальный подход</div>
+              <div class="main__choose-block-text">Наши мастера всегда готовы выслушать потребности и пожелания клиента, предложить наилучшие варианты ремонта и консультации по эксплуатации автомобиля.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__projects-container">
+        <div class="main__projects" id="work">
+          <div class="main__projects-title title">Наши работы</div>
+          <div class="main__projects-info">
+            <div class="main__projects-swiper">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="main__projects-block">
+                      <div class="main__projects-block-image">
+                        <img src="../img/tormoz.webp" alt="">
+                      </div>
+                      <div class="main__projects-block-name">Замена тормозных колодок</div>
+                    </div>
+                    <div class="main__projects-text">Включает в себя демонтаж старых колодок, установку новых, проведение диагностики тормозной системы и регулировку</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="main__projects-block">
+                      <div class="main__projects-block-image">
+                        <img src="../img/remontdvigatel.png" alt="">
+                      </div>
+                      <div class="main__projects-block-name">Ремонт двигателя</div>
+                    </div>
+                    <div class="main__projects-text">Проводится при возникновении неисправностей в работе двигателя, включает в себя диагностику, разборку, замену деталей и сборку</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="main__projects-block">
+                      <div class="main__projects-block-image">
+                        <img src="../img/maslo.png" alt="">
+                      </div>
+                      <div class="main__projects-block-name">Замена масла и фильтров</div>
+                    </div>
+                    <div class="main__projects-text">Рекомендуется проводить каждые 10-15 тысяч километров пробега, включает в себя замену масла и всех фильтров, проведение диагностики и проверку уровня жидкостей</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="main__projects-block">
+                      <div class="main__projects-block-image">
+                        <img src="../img/tormoz.webp" alt="">
+                      </div>
+                      <div class="main__projects-block-name">Замена тормозных колодок</div>
+                    </div>
+                    <div class="main__projects-text">Включает в себя демонтаж старых колодок, установку новых, проведение диагностики тормозной системы и регулировку</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="main__projects-block">
+                      <div class="main__projects-block-image">
+                        <img src="../img/remontdvigatel.png" alt="">
+                      </div>
+                      <div class="main__projects-block-name">Ремонт двигателя</div>
+                    </div>
+                    <div class="main__projects-text">Проводится при возникновении неисправностей в работе двигателя, включает в себя диагностику, разборку, замену деталей и сборку</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="main__projects-block">
+                      <div class="main__projects-block-image">
+                        <img src="../img/maslo.png" alt="">
+                      </div>
+                      <div class="main__projects-block-name">Замена масла и фильтров</div>
+                    </div>
+                    <div class="main__projects-text">Рекомендуется проводить каждые 10-15 тысяч километров пробега, включает в себя замену масла и всех фильтров, проведение диагностики и проверку уровня жидкостей</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__container __container">
+        <div class="main__contacts" id="contacts">
+          <div class="main__contacts-info">
+            <div class="main__contacts-title title">Контакты</div>
+            <div class="main__contacts-address contacts__block">
+              <div class="main__contacts-address-icon">
+                <i class="uil uil-map-marker"></i>
+              </div>
+              <div class="main__contacts-address-info">
+                <div class="main__contacts-address-title info-title">Наш адрес</div>
+                <div class="main__contacts-address-text">Россия, г. Москва, улица Пушкина, дом 1, корпус 2</div>
+              </div>
+            </div>
+            <div class="main__contacts-number contacts__block">
+              <div class="main__contacts-number-icon">
+                <i class="uil uil-phone-alt"></i>
+              </div>
+              <div class="main__contacts-number-info">
+                <div class="main__contacts-number-title info-title">Номер телефона</div>
+                <div class="main__contacts-number-text">+7 (999) 999-09-90</div>
+              </div>
+            </div>
+            <div class="main__contacts-email contacts__block">
+              <div class="main__contacts-email-icon">
+                <i class="uil uil-at"></i>
+              </div>
+              <div class="main__contacts-email-info">
+                <div class="main__contacts-email-title info-title">Наш E-mail</div>
+                <div class="main__contacts-email-text">example.email@gmail.com</div>
+              </div>
+            </div>
+            <div class="main__contacts-subtitle">Мы в социальных сетях</div>
+            <div class="main__contacts-social">
+              <div class="main__contacts-number">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                  <g clip-path="url(#clip0_0_22)">
+                    <path d="M20.005 0H19.995C8.9675 0 0 8.97 0 20C0 24.375 1.41 28.43 3.8075 31.7225L1.315 39.1525L9.0025 36.695C12.165 38.79 15.9375 40 20.005 40C31.0325 40 40 31.0275 40 20C40 8.9725 31.0325 0 20.005 0Z" fill="#1E5DFF"/>
+                    <path d="M31.6425 28.2425C31.16 29.605 29.245 30.735 27.7175 31.065C26.6725 31.2875 25.3075 31.465 20.7125 29.56C14.835 27.125 11.05 21.1525 10.755 20.765C10.4725 20.3775 8.38 17.6025 8.38 14.7325C8.38 11.8625 9.83751 10.465 10.425 9.86496C10.9075 9.37246 11.705 9.14746 12.47 9.14746C12.7175 9.14746 12.94 9.15996 13.14 9.16996C13.7275 9.19496 14.0225 9.22996 14.41 10.1575C14.8925 11.32 16.0675 14.19 16.2075 14.485C16.35 14.78 16.4925 15.18 16.2925 15.5675C16.105 15.9675 15.94 16.145 15.645 16.485C15.35 16.825 15.07 17.085 14.775 17.45C14.505 17.7675 14.2 18.1075 14.54 18.695C14.88 19.27 16.055 21.1875 17.785 22.7275C20.0175 24.715 21.8275 25.35 22.475 25.62C22.9575 25.82 23.5325 25.7725 23.885 25.3975C24.3325 24.915 24.885 24.115 25.4475 23.3275C25.8475 22.7625 26.3525 22.6925 26.8825 22.8925C27.4225 23.08 30.28 24.4925 30.8675 24.785C31.455 25.08 31.8425 25.22 31.985 25.4675C32.125 25.715 32.125 26.8775 31.6425 28.2425Z" fill="white"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_22">
+                      <rect width="40" height="40" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="main__contacts-telegram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                  <g clip-path="url(#clip0_0_25)">
+                    <circle cx="20" cy="20" r="17" fill="white"/>
+                    <path d="M20 40C31.0483 40 40 31.0483 40 20C40 8.95167 31.0483 0 20 0C8.95167 0 0 8.95167 0 20C0 31.0483 8.95167 40 20 40ZM9.15167 19.5667L28.435 12.1317C29.33 11.8083 30.1117 12.35 29.8217 13.7033L29.8233 13.7017L26.54 29.17C26.2967 30.2667 25.645 30.5333 24.7333 30.0167L19.7333 26.3317L17.3217 28.655C17.055 28.9217 16.83 29.1467 16.3133 29.1467L16.6683 24.0583L25.935 15.6867C26.3383 15.3317 25.845 15.1317 25.3133 15.485L13.8617 22.695L8.925 21.155C7.85333 20.815 7.83 20.0833 9.15167 19.5667Z" fill="#1E5DFF"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_25">
+                      <rect width="40" height="40" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <form action="#" method="get" class="main__contacts-form">
+            <div class="main__contacts-form-title">Оставьте заявку</div>
+            <div class="main__contacts-form-subtitle">Заполните форму и мы Вам перезвоним!</div>
+            <label for="name1" class="main__contacts-form-name">
+              <input type="text" id="name1" placeholder="Ваше имя">
+            </label>
+            <div class="dropdown__menu">
+              <label for="service" class="main__contacts-form-service">
+                <input type="button" id="service" class="main__contacts-form-service__button" value="Выберите интересующую услугу">
+                <i class="uil uil-angle-down arrow-service"></i>
+              </label>
+              <ul class="dropdown__list">
+                <li class="dropdown__list-item">Замена масла</li>
+                <li class="dropdown__list-item">Замена свечей</li>
+                <li class="dropdown__list-item">Тех. осмотр</li>
+                <li class="dropdown__list-item">Ремонт двигателя</li>
+                <li class="dropdown__list-item" value="etc">Другое</li>
+              </ul>
+            </div>
+            <div class="main__contacts-form-number">
+              <div class="country">
+                <div class="country__button">
+                  <img src="../img/russia.svg" alt="">
+                  <i class="uil uil-angle-down arrow-country"></i>
+                </div>
+                <div class="country__menu">
+                  <ul class="country__list">
+                    <li class="country__item">
+                      <img src="../img/germany-icon.svg" alt="">
+                      <span>+49</span>
+                    </li>
+                    <li class="country__item">
+                      <img src="../img/hungary-icon.svg" alt="">
+                      <span>+36</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <span class="start__number">+7</span>
+              <label for="number1">
+                <input type="text" id="number1" placeholder="(999) 999-99-99">
+              </label>
+            </div>
+            <button type="submit" class="main__contacts-form-button">Отправить</button>
+            <div class="main__contacts-form-text">Оставляя заявку, вы даете согласие на обработку персональных данных</div>
+            <div class="main__contacts-gradient"></div>
+          </form>
+        </div>
+        <div class="main__map">
+          <div class="main__map-title title">Найдите нас на карте</div>
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abc9d4a9ef4a838a2de379f7d4e3d424b97941fa81c186459adf7e872f1b6bdac&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
+        </div>
+      </div>
+    </main>
+    @@include('./blocks/footer.html')
+  </div>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script defer src="./js/swiper.bundle.js"></script>
+  <script defer src="./js/index.bundle.js"></script>
+</body>
+</html>
